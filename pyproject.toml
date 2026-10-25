@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "porkqc"
+version = "1.0.0"
+description = "Automated detection of pork rasher packaging defects with YOLO, with leakage-free validation and pass/fail decisions."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+dependencies = ["numpy", "pandas", "pillow", "pyyaml"]
+
+[project.optional-dependencies]
+notebooks = ["ultralytics", "matplotlib"]
+dev = ["pytest", "pytest-html", "pdoc"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests", "src/porkqc"]
+addopts = "--doctest-modules"

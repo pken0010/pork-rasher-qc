@@ -1,0 +1,14 @@
+# Core package (src/porkqc)
+numpy
+pandas
+pillow
+pyyaml
+
+# Notebooks (training and evaluation)
+ultralytics>=8.3
+matplotlib
+
+# Testing and documentation
+pytest
+pytest-html
+pdoc
