@@ -1,0 +1,26 @@
+# Dataset and training outputs (too large / licensed separately; see README)
+*.zip
+pork_rasher*/
+data/
+splits/
+runs/
+pork_runs/
+*.pt
+*.cache
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets (never commit API keys, e.g. a Roboflow key)
+.env
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
