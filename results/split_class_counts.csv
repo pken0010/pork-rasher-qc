@@ -1,0 +1,7 @@
+scheme,split,images,loose-meat,packaging-error,twisted-meat,unsealed,wrinkle,(no defect)
+original,train,1085,22,501,23,340,6,219
+original,valid,112,3,23,3,74,0,13
+original,test,75,2,14,4,47,0,11
+blocked,train,844,15,369,21,298,0,162
+blocked,valid,204,5,79,5,64,5,50
+blocked,test,197,4,74,4,92,1,29
